@@ -38,6 +38,7 @@ module.exports.findStory=async()=>{
 
        return await   Story.find().populate('author')
        
+       
 }
 module.exports.updateStory=async(req,res)=>{
     
